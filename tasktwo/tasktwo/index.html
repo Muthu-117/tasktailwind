@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tasktwo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="bg-white shadow-lg w-full">
+        <div class="max-w-6xl mx-auto px-4">
+          <div class="flex justify-between">
+            <div class="flex space-x-7">
+              <div class="flex items-center py-2">
+                <img class="h-12 w-100" src="images/Askmeidentity.png" alt="" />
+              </div>
+            </div>
+            <div class="flex items-center py-2">
+              <a href="#" class="px-2"> Home </a>
+              <a href="#" class="px-2"> Courses </a>
+              <a href="#" class="px-2"> About </a>
+              <a href="#" class="px-2"> Contact </a>
+            </div>
+            <div class="flex items-center">
+              <img src="images/photo1.png" class="h-6" alt="" />
+            </div>
+            <div class="flex items-center">
+              <a href="#" class="py-4 pr-4">login</a>
+              <button
+                class="btn-blue py-2 px-4 rounded"
+              >
+                SignUp
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- home section  -->
+     <section class="home-sec">
+        <div class="flex py-20">
+          <div class="grid text-white pb-4 w-6/12 mx-16">
+            <p class="uppercase">Successful coaches are visionaries</p>
+            <h1 class="py-3 font-bold text-6xl">Good <span class="font-bold blue-txt">coaching</span> is <br> good teaching & <br> nothing else.</h1>
+            <div class="flex py-10">
+              <button
+                class="outline  py-2 px-4 rounded"
+              >
+                 View Courses
+              </button>
+              <p class="mt-2 mx-8">Get Free Consultation</p>
+            </div>
+            <form class="w-9/12 mr-12">   
+              <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+              <div class="relative">
+                  <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                      <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+                      </svg>
+                  </div>
+                  <input type="search" id="default-search" class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="What do you want to learn today?" required />
+                  <button type="submit" class="text-white btn-blue absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+              </div>
+          </form>
+          </div>
+          <div class="w-6/12">
+             <img src="images/women.png"/>
+          </div>
+        </div>
+     </section>
+
+   <!-- ad section -->
+    <section class="ad-bg w-full">
+      <div class="flex justify-between ad-div">
+          <img src="images/ad1.png" class="py-4 ad-ig-ht" />
+          <img src="images/ad2.png" class="py-4 ad-ig-ht" />
+          <img src="images/ad3.png" class="py-4 ad-ig-ht" />
+          <img src="images/ad4.png" class="py-4 ad-ig-ht" />
+          <img src="images/ad5.png" class="py-4 ad-ig-ht" />
+          <img src="images/ad6.png" class="py-4 ad-ig-ht" />
+      </div>
+    </section>
+
+    <!-- featured course -->
+    <section class="pt-8">
+      <div class="grid justify-items-center pb-4">
+        <h3 class="py-1 font-bold text-2xl">Featured <span class="font-bold blue-txt">courses</span></h3>
+        <p class="pb-4 uppercase text-base">
+          The feature courses are we invented our teaching part
+        </p>
+      </div>
+
+      
+        <div class="pt-8 flex justify-items-center mx-10">
+
+          <div class="max-w-sm rounded overflow-hidden shadow-lg mx-5">
+            <img
+              class="w-full"
+              src="images/fc1.png"
+            />
+            <div class="px-6 py-4">
+              <div class="flex justify-between">
+                <p>1,957 Students</p>
+                <p>01h 59m</p>
+              </div>
+              <div class="font-bold text-xl mb-2 mt-4">Motion Graphics: Create a Nice
+                Typography Animation</div>
+            </div>
+            <div class="flex justify-between px-6 pt-4 pb-2">
+              <p>Rs.499</p>
+              <img src="images/cart-icon.png" />
+            </div>
+          </div>
+  
+          <div class="max-w-sm rounded overflow-hidden shadow-lg mx-5">
+            <img
+              class="w-full"
+              src="images/fc2.png"
+            />
+            <div class="px-6 py-4">
+              <div class="flex justify-between">
+                <p>1,957 Students</p>
+                <p>01h 59m</p>
+              </div>
+              <div class="font-bold text-xl mb-2 mt-4">Advance PHP knowledge with JS to
+                make smart web</div>
+            </div>
+            <div class="flex justify-between px-6 pt-4 pb-2">
+              <p>Rs.499</p>
+              <img src="images/cart-icon.png" />
+            </div>
+          </div>
+          
+          <div class="max-w-sm rounded overflow-hidden shadow-lg mx-5">
+            <img
+              class="w-full"
+              src="images/fc3.png"
+            />
+            <div class="px-6 py-4">
+              <div class="flex justify-between">
+                <p>1,957 Students</p>
+                <p>01h 59m</p>
+              </div>
+              <div class="font-bold text-xl mb-2 mt-4">Education Software and PHP and JS
+                System Script</div>
+            </div>
+            <div class="flex justify-between px-6 pt-4 pb-2">
+              <p>Rs.499</p>
+              <img src="images/cart-icon.png" />
+            </div>
+          </div>
+
+          
+        </div>
+      
+      <div class="pt-8 flex justify-items-center mx-10">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg mx-5">
+          <img
+            class="w-full"
+            src="images/fc4.png"
+          />
+          <div class="px-6 py-4">
+            <div class="flex justify-between">
+              <p>1,957 Students</p>
+              <p>01h 59m</p>
+            </div>
+            <div class="font-bold text-xl mb-2 mt-4">Education Software and PHP and JS
+              System Script</div>
+          </div>
+          <div class="flex justify-between px-6 pt-4 pb-2">
+            <p>Rs.499</p>
+            <img src="images/cart-icon.png" />
+          </div>
+        </div>
+
+        <div class="max-w-sm rounded overflow-hidden shadow-lg mx-5">
+          <img
+            class="w-full"
+            src="images/fc5.png"
+          />
+          <div class="px-6 py-4">
+            <div class="flex justify-between">
+              <p>1,957 Students</p>
+              <p>01h 59m</p>
+            </div>
+            <div class="font-bold text-xl mb-2 mt-4">Education Software and PHP and JS
+              System Script</div>
+          </div>
+          <div class="flex justify-between px-6 pt-4 pb-2">
+            <p>Rs.499</p>
+            <img src="images/cart-icon.png" />
+          </div>
+        </div>
+
+        <div class="max-w-sm rounded overflow-hidden shadow-lg mx-5">
+          <img
+            class="w-full"
+            src="images/fc6.png"
+          />
+          <div class="px-6 py-4">
+            <div class="flex justify-between">
+              <p>1,957 Students</p>
+              <p>01h 59m</p>
+            </div>
+            <div class="font-bold text-xl mb-2 mt-4">Education Software and PHP and JS
+              System Script</div>
+          </div>
+          <div class="flex justify-between px-6 pt-4 pb-2">
+            <p>Rs.499</p>
+            <img src="images/cart-icon.png" />
+          </div>
+        </div>
+      </div>
+      
+      <div class="grid justify-items-center py-12">
+        <button
+              class="btn-blue py-2 px-4 rounded"
+          >
+          Explore courses
+        </button>
+      </div>
+      </div>
+    </section>
+
+    <!-- why courses  -->
+    <section class="ycourse">
+      <div class="grid justify-items-center py-8 text-white">
+        <h3 class="py-1 font-bold text-2xl">Why <span class="font-bold blue-txt">learn</span> with our courses?</h3>
+        <p class="pb-4 uppercase text-base">
+          We are providing the best courses and top classes.And extradinery
+          placement training.....
+        </p>
+
+
+        <div class="flex justify-items-center py-16 divide-x">
+          <div class="max-w-60 overflow-hidden justify-items-center mx-5 text-white">
+            <img
+              class="w-16"
+              src="images/yc1.png"
+            />
+            <div class="px-6 py-3">
+              <p>01. Learn</p>
+            </div>
+            <div class="justify-items-center px-6 py-2">
+              <p>Learn continually. There is always
+                “one more thing”to learn.</p>
+            </div>
+          </div>
+          <div class="max-w-60 overflow-hidden justify-items-center mx-5 text-white">
+            <img
+              class="w-16"
+              src="images/yc2.png"
+            />
+            <div class="px-6 py-3">
+              <p>02. Graduate</p>
+            </div>
+            <div class="justify-items-center px-6 py-2">
+              <p>Be bold,be courageous,
+                be your best.</p>
+            </div>
+          </div>
+          <div class="max-w-60 overflow-hidden justify-items-center mx-5 text-white">
+            <img
+              class="w-16"
+              src="images/yc3.png"
+            />
+            <div class="px-6 py-3">
+              <p>03. Work</p>
+            </div>
+            <div class="justify-items-center px-6 py-2">
+              <p>Great companies are built in
+                the office,with hard work put
+                in by team.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- top categories  -->
+    <section class="tc-section pt-8">
+      <div class="grid justify-items-center pb-8">
+        <h3 class="py-1 font-bold text-2xl">Top <span class="font-bold blue-txt">Categories</span></h3>
+        <p class="pb-4 text-base">100+ unique online course list designs</p>
+      </div>
+
+
+      <div class="flex justify-items-center py-8 mx-14">
+        <div class="max-w-sm bg-white rounded overflow-hidden shadow-lg mx-5  pt-8 pb-4">
+          <div class="grid justify-items-center">
+          <img class="w-14" src="images/tc1.png" />
+          </div>
+          <div class="px-6 py-4 justify-items-center">
+            <div class="font-bold text-xl mb-2 ">Digtal Marketing</div>
+            <p class="text-gray-700 text-base">25 courses</p>
+          </div>
+        </div>
+
+        <div class="max-w-sm bg-white rounded overflow-hidden shadow-lg mx-5  pt-8 pb-4">
+          <div class="grid justify-items-center">
+          <img class="w-14" src="images/tc2.png" />
+          </div>
+          <div class="px-6 py-4 justify-items-center">
+            <div class="font-bold text-xl mb-2 ">Digtal Marketing</div>
+            <p class="text-gray-700 text-base">25 courses</p>
+          </div>
+        </div>
+
+        <div class="max-w-sm bg-white rounded overflow-hidden shadow-lg mx-5  pt-8 pb-4">
+          <div class="grid justify-items-center">
+          <img class="w-14" src="images/tc3.png" />
+          </div>
+          <div class="px-6 py-4 justify-items-center">
+            <div class="font-bold text-xl mb-2 ">Digtal Marketing</div>
+            <p class="text-gray-700 text-base">25 courses</p>
+          </div>
+        </div>
+
+        <div class="max-w-sm bg-white rounded overflow-hidden shadow-lg mx-5  pt-8 pb-4">
+          <div class="grid justify-items-center">
+          <img class="w-14" src="images/tc4.png" />
+          </div>
+          <div class="px-6 py-4 justify-items-center">
+            <div class="font-bold text-xl mb-2 ">Digtal Marketing</div>
+            <p class="text-gray-700 text-base">25 courses</p>
+          </div>
+        </div>
+
+        <div class="max-w-sm bg-white rounded overflow-hidden shadow-lg mx-5  pt-8 pb-4">
+          <div class="grid justify-items-center">
+          <img class="w-14" src="images/tc5.png" />
+          </div>
+          <div class="px-6 py-4 justify-items-center">
+            <div class="font-bold text-xl mb-2 ">Digtal Marketing</div>
+            <p class="text-gray-700 text-base">25 courses</p>
+          </div>
+        </div>
+
+        <div class="max-w-sm bg-white rounded overflow-hidden shadow-lg mx-5  pt-8 pb-4">
+          <div class="grid justify-items-center">
+          <img class="w-14" src="images/tc6.png" />
+          </div>
+          <div class="px-6 py-4 justify-items-center">
+            <div class="font-bold text-xl mb-2 ">Digtal Marketing</div>
+            <p class="text-gray-700 text-base">25 courses</p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- subscibe -->
+     <section>
+      <div class="grid justify-items-center py-20 mx-20">
+        <img src="images/Subscribe.png" class="px-20 w-10/12" />
+      </div>
+     </section>
+
+     <!-- video sec  -->
+     <section>
+      <div class="grid justify-items-center py-20 mx-20">
+        <img src="images/videoimg.png" class="px-20 h-5/6" />
+      </div>
+     </section>
+
+    <!-- footer  -->
+     <section class="footer text-black font-semibold">
+        <div class="grid grid-cols-5 gap-4 mx-10 py-12">
+         <div class="fo1">
+           <h3 class="text-2xl py-3">Connect</h3>
+            <img src="images/Askmeidentity1.png" />
+              <p class="py-1">Sri Jagannath Nivas,8-1-164/345/A/1,
+              Pragati Colony, Mailardevpally, Nawab
+              Saheb Kunta, Hyd, 500005</p>
+          </div>
+          <div class="fo2">
+            <h3 class="text-2xl py-3">Classes</h3>
+            <p class="py-1">Classroom courses</p>
+            <p class="py-1">Virtual classroom courses</p>
+            <p class="py-1">E-learning courses</p>
+            <p class="py-1">Video Courses</p>
+            <p class="py-1">Offline Courses</p>
+           </div>
+           <div class="fo3">
+            <h3 class="text-2xl py-3">Community</h3>
+            <p class="py-1">Learners</p>
+            <p class="py-1">Learners</p>
+            <p class="py-1">Learners</p>
+            <p class="py-1">Learners</p>
+            <p class="py-1">Learners</p>
+           </div>
+           <div class="fo4">
+            <h3 class="text-2xl py-3">Quick links</h3>
+            <p class="py-1">Home</p>
+            <p class="py-1">Home</p>
+            <p class="py-1">Home</p>
+            <p class="py-1">Home</p>
+            <p class="py-1">Home</p>
+            <p class="py-1">Home</p>
+           </div>
+           <div class="fo5">
+            <h3 class="text-2xl py-3">More</h3>
+            <p class="py-1">Press</p>
+            <p class="py-1">Press</p>
+            <p class="py-1">Press</p>
+            <p class="py-1">Press</p>
+            <p class="py-1">Press</p>
+            <p class="py-1">Press</p>
+           </div>
+        </div>
+
+        <div class="copyrightsec">
+          <div class="grid justify-items-center text-white">
+            <p>Copyright @ 2023 askmeidentity. All Rights Reserved</p>
+          </div>
+        </div>
+     </section>
+    
+  </body>
+</html>

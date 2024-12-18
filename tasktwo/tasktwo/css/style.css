@@ -1,0 +1,50 @@
+.btn-blue{
+    background-image: linear-gradient(to right, #083F9B , #7F56D9);
+    color: white;
+}
+.blue-txt{
+    color: #4883FF;
+}
+
+/* home section  */
+.home-sec{
+    background-image: linear-gradient(to right, #04016C , #4A16BD);
+}
+.home-sec img{
+    height: 90%;
+    max-width: 42%;
+    position: relative;
+    top: 96px;
+    left: 175px;
+}
+/* ad section  */
+.ad-div{
+    padding: 16px 90px;
+}
+.ad-bg{
+    background-image: linear-gradient(to right, #2E08C7 , #7E08C7);
+}
+.ad-ig-ht{
+    height: 57px;
+}
+
+/* why courses */
+.ycourse{
+    background-image: linear-gradient(to right, #739FE8 , #4F18CA);
+}
+.ycourse .blue-txt{
+    color: #0E38CD;
+}
+/* top categories section  */
+.tc-section{
+    background-image: linear-gradient(white,#D9ECFF);
+}
+
+/* footer  */
+.footer{
+    background-image: linear-gradient(to right, #931BBD , #477AE3);
+}
+
+.copyrightsec{
+    background-color: #001AFF;
+}
